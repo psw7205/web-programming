@@ -1,36 +1,82 @@
+* {
+    text-decoration: none;
+    color: #868e96;
+}
+
 #nav {
     height: 100%;
-    width: 150px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #bd5d38;
     overflow-x: hidden;
     padding-top: 20px;
+    text-align: center;
+    line-height: 50px;
 }
 
 #nav a {
+    text-transform: uppercase;
     padding: 6px 8px 6px 16px;
-    text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #ffffff;
     display: block;
 }
 
 #nav a:hover {
-    color: #f1f1f1;
-    background-color: #818181;
+    font-size: 22px;
 }
 
 #main {
-    margin-left: 150px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
+    margin-left: 220px;
+    font-size: 20px;
     padding: 0px 10px;
 }
 
 h1 {
+    color: #343a40;
+    display: inline-block;
+    font-family: NanumMyeongjo;
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+h1 span {
+    color: #bd5d38;
+    font-size: 50px;
+}
+
+#About img {
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 200px;
+    float: left;
+    border-radius: 50%;
 }
 
 h2 {
+    color: #343a40;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#Education table {
+    width: 100%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+#Education th,
+#Education td {
+    color: #343434;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+#Copyright {
+    color: #000000;
+
 }

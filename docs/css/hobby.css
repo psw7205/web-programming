@@ -1,0 +1,46 @@
+* {
+    text-decoration: none;
+    color: black;
+}
+
+header a {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #bd5d38;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+header audio {
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-left: 110px;
+}
+
+
+audio:hover,
+audio:focus,
+audio:active {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+audio {
+    transition: all 0.5s linear;
+    box-shadow: 2px 2px 4px 0px #006773;
+    border-radius: 7px 7px 7px 7px;
+    width: 500px;
+}
+
+img {
+    width: 40%;
+}
