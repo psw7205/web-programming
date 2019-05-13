@@ -70,19 +70,42 @@ h2 {
 }
 
 #Education table {
-    width: 100%;
-    border: 1px solid #000000;
+    width: 80%;
     border-collapse: collapse;
 }
 
 #Education th,
 #Education td {
     color: #343434;
-    border: 1px solid #000000;
     padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #dadada;
 }
 
 #Copyright {
     color: #000000;
 
+}
+
+#TOP {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 85%;
+    left: 90%;
+    background: #dadada;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+#TOP i {
+    margin-top: 15px;
 }
